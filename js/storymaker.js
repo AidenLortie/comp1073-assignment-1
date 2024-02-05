@@ -50,50 +50,25 @@ const setting = ['on the moon', 'in the jungle', 'under the sea', 'in the kitche
 -------------------------------------------------- */
 function noun1_on_click() {
     noun1Display.textContent = noun1[Math.floor(Math.random() * noun1.length)];
-    noun1Count++;
 
-    if (noun1Count === noun1.length) {
-        noun1Count = 0;
-    }
 }
 
 function verb_on_click() {
     verbDisplay.textContent = verb[Math.floor(Math.random() * verb.length)];
-    verbCount++;
-
-    if (verbCount === verb.length) {
-        verbCount = 0;
-    }
-
     
 }
 
 function adjective_on_click() {
     adjectiveDisplay.textContent = adjective[Math.floor(Math.random() * noun1.length)];
-    adjectiveCount++;
 
-    if (adjectiveCount === adjective.length) {
-        adjectiveCount = 0;
-    }
 }
 
 function noun2_on_click() {
     noun2Display.textContent = noun2[Math.floor(Math.random() * noun2.length)];
-    noun2Count++;
-
-    if (noun2Count === noun2.length) {
-        noun2Count = 0;
-    }
 }
 
 function setting_on_click() {
-    console.log('setting');
     settingDisplay.textContent = setting[Math.floor(Math.random() * setting.length)];
-    settingCount++;
-
-    if (settingCount === setting.length) {
-        settingCount = 0;
-    }
 }
 
 function reset_on_click() {
